@@ -3,7 +3,7 @@ artprima_prometheus_metrics:
     type: redis
     ignored_routes: [prometheus_bundle_prometheus, _wdt]
     redis:
-        host: redis
+        host: redis.internal
         port: 6379
         timeout: 0.1
         read_timeout: 10
